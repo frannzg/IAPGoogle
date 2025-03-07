@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <!-- Título o mensaje explicativo -->
+    <TextView
+        android:id="@+id/tvHomeTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Elige una opción de compra"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:layout_marginBottom="24dp"/>
+
+    <Button
+        android:id="@+id/btnComprar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Comprar el producto Samarreta"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnSuscribirse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Subscribirte (6€/mes)"
+        android:textSize="16sp" />
+
+
+</LinearLayout>
